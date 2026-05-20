@@ -57,9 +57,9 @@ def to_yolo_format(label_outputpath, propspath, datasplit, singular=False):
         # Save converted bounding box to .txt file
         txt_filename = '{}_{}_{}_{}.txt'.format(scan_nr, take, view, slice_index)
         txt_path = label_outputpath+"/"+scan_split+"/"
-        if txt_filename in os.listdir(txt_path) and not singular: # If text file already exists (this slice contains multiple bones): append 
+        if txt_filename in os.listdir(txt_path) and not singular: # If text file already exists (this slice contains multiple lesions): append 
             file = open(txt_path+txt_filename, "a")
-            file.write("0 {} {} {} {} \n".format(x_center, y_center, box_width, box_height)) # 0 = class label (bone)
+            file.write("0 {} {} {} {} \n".format(x_center, y_center, box_width, box_height)) # 0 = class label (lesion)
             file.close()
         elif singular:
             txt_filename = '{}_{}_{}_{}_n{}.txt'.format(scan_nr, take, view, slice_index, int(label))
