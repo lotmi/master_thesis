@@ -39,7 +39,7 @@ class RetinaNetDataset(Dataset):
         boxes_tensor = torch.tensor(boxes, dtype=torch.float32)
         if boxes_tensor.numel() == 0:
             boxes_tensor = torch.zeros((0,4), dtype=torch.float32)
-        labels = torch.ones((boxes_tensor.shape[0],), dtype=torch.int64)  # One class (bones)
+        labels = torch.ones((boxes_tensor.shape[0],), dtype=torch.int64)  # One class (lesions)
         target = {'boxes': boxes_tensor, 'labels': labels}
         
         return image, target
