@@ -1,10 +1,8 @@
 # Repository for the Master Thesis project by Lotte Michels
 
 This repository contains the following folders:
-$ ./tree-md .
 # 
-.
- * [tree-md](./tree-md)
+ * [tree-md](./analysis_and_visualization) 
  * [dir2](./dir2)
    * [file21.ext](./dir2/file21.ext)
    * [file22.ext](./dir2/file22.ext)
