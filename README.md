@@ -1,6 +1,7 @@
 # Repository for the Master Thesis project by Lotte Michels
 
-This repository contains the following folders:
+This repository contains the code that was used for the reported deep learning experiments.
+
 ## Code Tree: 
  * [analysis_and_visualization](./analysis_and_visualization): notebooks for data exploration and visualization of the experimental results. 
  * [CODE](./CODE): all code scripts to run the deep learning experiments.
@@ -17,9 +18,9 @@ This repository contains the following folders:
 
 ## SAHI Source Code Adjustments:
 Code added to the SAHI source code (Akyon et al., 2021) was done in the following two scripts:
-* `predit.py`, in lines 2020203 and lines 321-322
-* `slicing.py`, in lines 296-300 and lines 361-383
-The adapted scripts are included in the following folder: [sahi_adjustments](./CODE/ETZ/sahi_adjustments).
+* `predit.py` in lines 2020203 and lines 321-322
+* `slicing.py` in lines 296-300 and lines 361-383
+The adapted scripts are included in: [sahi_adjustments](./CODE/ETZ/sahi_adjustments).
 Adjustments are clearly indicated with comments on and around the mentioned code lines. 
 
 ## Reference:
