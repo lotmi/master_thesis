@@ -1,17 +1,8 @@
 # Repository for the Master Thesis project by Lotte Michels
 
 This repository contains the following folders:
-```bash
-
-* analysis_and_visualization: notebooks for data exploration and visualization of the experimental results.
-* CODE:
-** TotalSegmentator
-*** huh
-
-
 $ ./tree-md .
-# Project tree
-
+# 
 .
  * [tree-md](./tree-md)
  * [dir2](./dir2)
@@ -24,6 +15,14 @@ $ ./tree-md .
  * [file_in_root.ext](./file_in_root.ext)
  * [README.md](./README.md)
  * [dir3](./dir3)
-  
+
+
+
+* analysis_and_visualization: notebooks for data exploration and visualization of the experimental results.
+* CODE:
+** TotalSegmentator
+*** huh
+
+
   
 
