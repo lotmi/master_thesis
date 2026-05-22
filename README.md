@@ -3,6 +3,9 @@
 This repository contains the following folders:
 * analysis_and_visualization: notebooks for data exploration and visualization of the experimental results.
 * CODE:
->> TotalSegmentator
->> ETZ
->> 
+** TotalSegmentator
+*** huh
+  
+  
+  
+
